@@ -9,3 +9,8 @@
 * Model version: 1.0
 * License: MIT
 * Model implementation code: [DNSC_6301_Project_team_15.ipynb](https://github.com/tuananh28394/DNSC-6301/blob/2878c85f88399c9da87d59385f475308bb8cef24/DNSC_6301_Project_team_15.ipynb)
+
+# Intended Use
+* Primary intended uses: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase.
+* Primary intended users: Group assignment in GWU DNSC 6301 bootcamp.
+* Out-of-scope use cases: Any use beyond an educational example is out-of-scope
