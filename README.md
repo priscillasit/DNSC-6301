@@ -57,3 +57,6 @@ DELINQ_NEXT	           | target          | int               | whether a custome
                        min_samples_leaf=1, min_samples_split=2,
                        min_weight_fraction_leaf=0.0, presort='deprecated',
                        random_state=12345, splitter='best')`
+
+## Quantitative analysis
+Metrics used to evaluate final model: AUC and AIR
