@@ -61,6 +61,7 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 ## Quantitative analysis
 * **Metrics used to evaluate final model: AUC and AIR
 * **Final values of data:
+
 | Training | Validation | Test | Description
-|------------- | ------------- | -------------  | -------------
-Value |   |  |  |
+| ------------- | ------------- | -------------  | -------------
+Value |  1 | 2 |3  |
