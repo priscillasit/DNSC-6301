@@ -18,13 +18,13 @@
 ## Training Data
 * **Data Dictionary**:
 
-    Name      | Modeling Role  |    Measurement Level      | Description  
-------------- | -------------  |  -------------            | -------------
-ID            | ID             |  int                      |  unique row indentifier 
-LIMIT_BAL	    | input          | float                     | amount of previously awarded credit
+Name          | Modeling Role | Measurement Level | Description
+------------- | ------------- | -------------     | -------------
+ID            | ID            | int               | unique row indentifier
+LIMIT_BAL     | input         | float             | amount of previously awarded credit
 
 * **Source of training data**: GWU Blackboard, email jphall@gwu.edu for more information
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
 * **Number of rows in training and validation data**:
-+ training data (15000 rows and 20 columns)
-+ validation data: 7500 rows and 20 columns
+ * training data (15000 rows and 20 columns)
+ * validation data: 7500 rows and 20 columns
