@@ -71,5 +71,12 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
 
-[image](https://user-images.githubusercontent.com/112098061/186761883-2a37ec8b-0aac-4a51-b0e4-ff42d836d40d.png) (image with labels)
+**Iteration Plot
+
+![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
+
+**Variable Importance
+
+![image](https://user-images.githubusercontent.com/112098061/186762464-3eccd1cf-5dcb-4036-b17f-4d9c4fd735d9.png)
+
 
