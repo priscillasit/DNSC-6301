@@ -18,11 +18,10 @@
 ## Training Data
 * **Data Dictionary**:
 
-    Name      | Modeling Role  |    Name      | Modeling Role  |
-------------- | -------------  |  
-Content Cell  | Content Cell   |
-Content Cell  | Content Cell 
-
+    Name      | Modeling Role  |    Measurement Level      | Description  
+------------- | -------------  |  -------------            | -------------
+ID            | ID             |  int                      |  unique row indentifier 
+LIMIT_BAL	    | input          | float                     | amount of previously awarded credit
 
 * **Source of training data**: GWU Blackboard, email jphall@gwu.edu for more information
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
