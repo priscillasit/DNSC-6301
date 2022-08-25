@@ -42,3 +42,6 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 * **Source of test data**: GWU Blackboard, email jphall@gwu.edu for more information
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
+
+## Model details
+
