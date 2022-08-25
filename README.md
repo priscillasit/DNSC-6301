@@ -28,3 +28,8 @@ LIMIT_BAL     | input         | float             | amount of previously awarded
 * **Number of rows in training and validation data**:
  * training data (15000 rows and 20 columns)
  * validation data: 7500 rows and 20 columns
+
+## Test Data
+* **Source of test data: GWU Blackboard, email jphall@gwu.edu for more information
+* **Number of rows in test data: 7,500
+* **State any differences in columns between training and test data: None
