@@ -70,3 +70,5 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 **Correlation Heatmap
 
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
+[image](https://user-images.githubusercontent.com/112098061/186761883-2a37ec8b-0aac-4a51-b0e4-ff42d836d40d.png) (image with labels)
+
