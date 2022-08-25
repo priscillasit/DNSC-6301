@@ -64,4 +64,8 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 
  Training | Validation | Test 
 ------------- | ------------- | -------------
- 1 | 2 |3  |4
+ 1 | 2 |3  |
+
+
+**Correlation Heatmap
+![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
