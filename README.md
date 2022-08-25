@@ -49,7 +49,7 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 * **Type of model**: Decision Tree
 * **Software used to implement the model**: Python, scikit-learn
 * **Version of the modeling software**: 1.0.2
-* **Python version: 3.7.13
+* **Python version**: 3.7.13
 * **Hyperparameters or other settings of your model**:
 `DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
                        max_depth=6, max_features=None, max_leaf_nodes=None,
