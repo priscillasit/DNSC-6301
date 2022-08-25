@@ -68,5 +68,4 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 
 
 **Correlation Heatmap
-
-[image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
+![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
