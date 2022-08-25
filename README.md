@@ -62,6 +62,6 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 * **Metrics used to evaluate final model: AUC and AIR
 * **Final values of data:
 
-| Training | Validation | Test | Description
-| ------------- | ------------- | -------------  | -------------
+  | Training | Validation | Test | Description
+  | ------------- | ------------- | -------------  | -------------
 Value |  1 | 2 |3  |
