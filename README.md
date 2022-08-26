@@ -61,9 +61,9 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 ## Quantitative analysis
 * **Metrics used to evaluate final model: AUC and AIR**
 * **Final values of data:**
- *- Training 
- *- Validation 
- *- Test 
+*Training 
+*Validation 
+*Test 
 
 hispanic-to-white AIR: 0.83
 
