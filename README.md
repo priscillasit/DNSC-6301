@@ -106,6 +106,7 @@ The darker the colour, the more negatively correlated it is for x and y axis.
 - Math or software problems: the model depends a lot on the packages we used. The different versions might result in other potential intepretations.
 - Real-world risks: who, what, when or how
 -- The demographic issues in the model
+- Local discrimination - the model treats a small number of similar people differently
 
 * **Describe potential uncertainties relating to the impacts of using your model**:
 - Math or software problems: there are many software tools availalbe but most of them do not consdier legality. 
