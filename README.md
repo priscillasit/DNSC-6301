@@ -101,3 +101,10 @@ The histograms describe the data by their frequency and distribution
 
 ##Ethical considerations
 
+*Describe potential negative impacts of using your model:
+■ Math or software problems
+■ Real-world risks: who, what, when or how
+*Describe potential uncertainties relating to the impacts of using your model:
+■ Math or software problems
+■ Real-world risks: who, what, when or how?
+*Describe any unexpected or results
