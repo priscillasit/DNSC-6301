@@ -103,15 +103,17 @@ The darker the colour, the more negatively correlated it is for x and y axis.
 ## Ethical considerations
 
 * **Describe potential negative impacts of using your model**:
-- Math or software problems: the model depends a lot on the packages we used. The different versions might result in other potential intepretations.
+- Math or software problems: the model depends a lot on the packages we used. The different versions might result in other potential intepretations. Tha data we used to train out data may be a little bit outdated.  
 - Real-world risks: who, what, when or how: 
 1. The demographic issues in the model: There some variables regarding demographic information such as race, gender, age or married status that should be taken into consideration when putting into the model.
 2. Local discrimination - the model treats a small number of similar people differently
+3. We do not have any data cleaning in our model which means that every data in our model should be extremely clean. However, most of the data in real world is not that clean. It may cause some errors or inaccuracy in the result of our model.
 
 * **Describe potential uncertainties relating to the impacts of using your model**:
 - Math or software problems: there are many software tools availalbe but most of them do not consider legality. 
 - Real-world risks: who, what, when or how?: 
 1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
 2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possess the data.
+3. Some of the variables may be missing due to legality, and those missing variables may affact the accuracy of our model. 
 
 * **Describe any unexpected or results**: AUC is lower than expected.
