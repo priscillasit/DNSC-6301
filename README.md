@@ -95,7 +95,7 @@ The darker the colour, the more negatively correlated it is for x and y axis.
 
 **Iteration Plot**
 
-![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png
+![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
 
 **Decision Tree**
 
