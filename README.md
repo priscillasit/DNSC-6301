@@ -62,10 +62,20 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 * **Metrics used to evaluate final model: AUC and AIR
 * **Final values of data:
 
- Training | Validation | Test 
-------------- | ------------- | -------------
- 1 | 2 |3  |
+- Training 
+- Validation 
+- Test 
 
+hispanic-to-white AIR: 0.83
+
+black-to-white AIR: 0.85
+
+asian-to-white AIR: 1.00
+
+female-to-male AIR: 1.02
+
+
+Test AUC: 0.7438
 
 **Correlation Heatmap
 
