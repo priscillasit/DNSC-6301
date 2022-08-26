@@ -59,8 +59,8 @@ DELINQ_NEXT	           | target          | int               | whether a custome
                        random_state=12345, splitter='best')`
 
 ## Quantitative analysis
-* **Metrics used to evaluate final model: AUC and AIR
-* **Final values of data:
+* Metrics used to evaluate final model: AUC and AIR
+* Final values of data:
 
 - Training 
 - Validation 
