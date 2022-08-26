@@ -110,7 +110,8 @@ The darker the colour, the more negatively correlated it is for x and y axis.
 
 * **Describe potential uncertainties relating to the impacts of using your model**:
 - Math or software problems: there are many software tools availalbe but most of them do not consdier legality. 
-- Real-world risks: who, what, when or how?: Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
-
+- Real-world risks: who, what, when or how?: 
+1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
+2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possess the data.
 
 * **Describe any unexpected or results**: AUC is lower than expected.
