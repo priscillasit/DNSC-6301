@@ -73,6 +73,7 @@ asian-to-white AIR| 1.00
 female-to-male AIR| 1.02
 
 AUC | Value
+-------------- | --------------
 Test AUC| 0.7438
 
 **Correlation Heatmap**
