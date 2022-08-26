@@ -59,8 +59,8 @@ DELINQ_NEXT	           | target          | int               | whether a custome
                        random_state=12345, splitter='best')`
 
 ## Quantitative analysis
-* Metrics used to evaluate final model: AUC and AIR
-* Final values of data:
+* **Metrics used to evaluate final model: AUC and AIR
+* **Final values of data:
 
 - Training 
 - Validation 
@@ -77,15 +77,15 @@ female-to-male AIR: 1.02
 
 Test AUC: 0.7438
 
-**Correlation Heatmap
+* Correlation Heatmap
 
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
 
-**Iteration Plot
+* Iteration Plot
 
 ![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
 
-**Variable Importance
+* Variable Importance
 
 ![image](https://user-images.githubusercontent.com/112098061/186762464-3eccd1cf-5dcb-4036-b17f-4d9c4fd735d9.png)
 
