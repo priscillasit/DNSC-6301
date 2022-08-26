@@ -77,16 +77,28 @@ AUC | Value
 Test AUC| 0.7438
 
 **Correlation Heatmap**
+
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
 
 The darker the colour, the more negatively correlated it is for x and y axis.
 
-**Iteration Plot**
-![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
-
-
 **Variable Importance**
 
 ![image](https://user-images.githubusercontent.com/112098061/186762464-3eccd1cf-5dcb-4036-b17f-4d9c4fd735d9.png)
+
+**Iteration Plot**
+
+![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
+
+**Historgrams**
+
+![image](https://user-images.githubusercontent.com/112098061/186915250-78e8d0fd-7473-450e-88f9-647138b05c96.png)
+
+The histograms describe the data by their frequency and distribution
+
+**Decision Tree**
+
+
+
 
 
