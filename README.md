@@ -65,7 +65,7 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 * Validation 
 * Test 
 
-??? AIR | Value
+AIR | Value
 -------------- | --------------
 hispanic-to-white AIR| 0.83 
 black-to-white AIR| 0.85
@@ -74,8 +74,10 @@ female-to-male AIR| 1.02
 
 AUC | Value
 -------------- | --------------
+Train AUC |
+Validation AUC |
 Test AUC| 0.7438
-
+ 
 
 **Historgrams**
 
@@ -115,7 +117,9 @@ The darker the colour, the more negatively correlated it is for x and y axis.
 - Real-world risks: who, what, when or how?: 
 1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
 2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possess the data.
+3. Security and related data privacy problems could result in model access and publication. 
 
 * **Describe any unexpected or results**: 
 1. AUC is lower than expected
 2. The prediction depends on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the training, for example covid or economic recession
+3. The PAY_0 variable has the very high variable important which could impact predictive power of the model. 
