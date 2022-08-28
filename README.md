@@ -51,6 +51,7 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 * **Version of the modeling software**: 1.0.2 sklearn
 * **Python version**: 3.7.13
 * **Hyperparameters or other settings of your model**:
+
 `DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
                        max_depth=6, max_features=None, max_leaf_nodes=None,
                        min_impurity_decrease=0.0, min_impurity_split=None,
@@ -59,7 +60,7 @@ DELINQ_NEXT	           | target          | int               | whether a custome
                        random_state=12345, splitter='best')`
 
 ## Quantitative analysis
-* **Metrics used to evaluate final model: Training AUC, Validation AUC, Test AUC and AIR**
+* **Metrics used to evaluate final model: Training AUC (for depth 6), Validation AUC (for depth 6), Test AUC and AIR**
 * **Final values of data:**
   * Training AUC: 0.783722	
   * Validation AUC: 0.749610
@@ -67,9 +68,15 @@ DELINQ_NEXT	           | target          | int               | whether a custome
  
   * asian-to-white AIR: 1.00
   * black-to-white AIR: 0.85
-  * female-to-male AIR: 1.02
   * hispanic-to-white AIR: 0.83
+  * female-to-male AIR: 1.02
  
+ **Historgrams**
+
+![image](https://user-images.githubusercontent.com/112098061/186915250-78e8d0fd-7473-450e-88f9-647138b05c96.png)
+
+The histograms describe the data by their frequency and distribution
+
 **Correlation Heatmap**
 
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
@@ -82,11 +89,6 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 
 ![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
 
-**Historgrams**
-
-![image](https://user-images.githubusercontent.com/112098061/186915250-78e8d0fd-7473-450e-88f9-647138b05c96.png)
-
-The histograms describe the data by their frequency and distribution
 
 **Decision Tree**
 
