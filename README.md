@@ -108,9 +108,9 @@ The histograms describe the data by their frequency and distribution
 * **Describe potential uncertainties relating to the impacts of using your model**:
 - Math or software problems: there are many software tools availalbe but most of them do not consider legality 
 - Real-world risks: who, what, when or how?: 
-1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
-2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possessing the data
+  1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
+  2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possessing the data
 
 * **Describe any unexpected or results**: 
-1. AUC is lower than expected
-2. The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession
+  1. AUC is lower than expected
+  2. The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession
