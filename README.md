@@ -81,6 +81,10 @@ The histograms describe the data by their frequency and distribution
 
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
 
+**Decision Tree**
+
+![image](https://user-images.githubusercontent.com/89337445/186931451-99a7f759-bdb9-4a08-9835-d171fa520b50.png)
+
 **Variable Importance**
 
 ![image](https://user-images.githubusercontent.com/112098061/186762464-3eccd1cf-5dcb-4036-b17f-4d9c4fd735d9.png)
@@ -88,11 +92,6 @@ The histograms describe the data by their frequency and distribution
 **Iteration Plot**
 
 ![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
-
-
-**Decision Tree**
-
-![image](https://user-images.githubusercontent.com/89337445/186931451-99a7f759-bdb9-4a08-9835-d171fa520b50.png)
 
 
 ## Ethical considerations
