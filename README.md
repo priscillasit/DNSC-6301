@@ -82,6 +82,8 @@ The histograms describe the data by their frequency and distribution
 
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
 
+The correlation heatmap helps decribe how the variables in the data are related to each other and the strength of the relationship. The darker the color is, the less relationship between the two variable have.
+
 **Decision Tree**
 
 ![image](https://user-images.githubusercontent.com/89337445/186931451-99a7f759-bdb9-4a08-9835-d171fa520b50.png)
