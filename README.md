@@ -8,7 +8,7 @@
 * Model date: August, 2022
 * Model version: 1.0
 * License: MIT
-* Model implementation code: [[DNSC_6301_Project_team_15.ipynb]](https://github.com/tuananh28394/DNSC-6301/blob/9c4f14af1f8b5dbcf5ff9f85f2e97a0e89ed280e/DNSC_6301_Project_team_15.ipynb)
+* Model implementation code: [DNSC_6301_Project_team_15.ipynb](https://github.com/tuananh28394/DNSC-6301/blob/9c4f14af1f8b5dbcf5ff9f85f2e97a0e89ed280e/DNSC_6301_Project_team_15.ipynb)
 
 ## Intended Use
 * **Primary intended uses**: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase.
@@ -52,13 +52,14 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 * **Python version**: 3.7.13
 * **Hyperparameters or other settings of your model**:
 
-`DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+```
+DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
                        max_depth=6, max_features=None, max_leaf_nodes=None,
                        min_impurity_decrease=0.0, min_impurity_split=None,
                        min_samples_leaf=1, min_samples_split=2,
                        min_weight_fraction_leaf=0.0, presort='deprecated',
-                       random_state=12345, splitter='best')`
-
+                       random_state=12345, splitter='best')
+```
 ## Quantitative analysis
 * **Metrics used to evaluate final model: Training AUC (for depth 6), Validation AUC (for depth 6), Test AUC and AIR**
 * **Final values of data:**
@@ -97,21 +98,21 @@ The histograms describe the data by their frequency and distribution
 ## Ethical considerations
 
 * **Describe potential negative impacts of using your model**:
-- Math or software problems: 
-  - As reflected in the varialbe importance barchart, the model relies heavily on the *PAY_0* variable which may neglect other variables' importance and affect the predicted outcome.
-  2. Our model depends a lot on the packages we used. The different versions of the package may result in other potential intepretations.
-  3. while explicit bias was reduced by not taking demographic data out from the model, there might still be bias hidden in the data
+- Math or software problems:
+  1. Our model depends a lot on the packages we used. The different versions of the package may result in other potential intepretations.
+  2. While explicit bias was reduced by not taking demographic data out from the model, there might still be bias hidden in the data.
 - Real-world risks: who, what, when or how: 
   1. The demographic issues in the model: there are some variables regarding demographic information such as race, gender, age or married status that should be taken into consideration when putting into the model
-  2. Local discrimination - the model treats a small number of similar people differently
+  2. Local discrimination: the model treats a small number of similar people differently.
   3. Data privacy issues
 
 * **Describe potential uncertainties relating to the impacts of using your model**:
 - Math or software problems: there are many software tools available but most of them do not consider legality 
 - Real-world risks: who, what, when or how?: 
-  1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
+  1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos.
   2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possessing the data
 
 * **Describe any unexpected or results**: 
   1. AUC is lower than expected
-  2. The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession
+  2. As reflected in the varialbe importance barchart, the model relies heavily on the *PAY_0* variable which may neglect other variables' importance and affect the predicted outcome.
+  3. The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession.
