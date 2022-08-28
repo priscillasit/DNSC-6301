@@ -59,7 +59,7 @@ DELINQ_NEXT	           | target          | int               | whether a custome
                        random_state=12345, splitter='best')`
 
 ## Quantitative analysis
-* **Metrics used to evaluate final model: Training and Validation AUC, AIR**
+* **Metrics used to evaluate final model: Training AUC, Validation AUC, Test AUC and AIR**
 * **Final values of data:**
   * Training AUC: 0.783722	
   * Validation AUC: 0.749610
@@ -69,22 +69,10 @@ DELINQ_NEXT	           | target          | int               | whether a custome
   * black-to-white AIR: 0.85
   * female-to-male AIR: 1.02
   * hispanic-to-white AIR: 0.83
-  
-**Historgrams**
-
-![image](https://user-images.githubusercontent.com/112098061/186915250-78e8d0fd-7473-450e-88f9-647138b05c96.png)
-
-The histograms describe the data by their frequency and distribution
-
+ 
 **Correlation Heatmap**
 
 ![image](https://user-images.githubusercontent.com/112098061/186761364-d52d5f90-e852-4d2e-a8d6-b1e496dbac2c.png)
-
-The darker the colour, the more negatively correlated it is for x and y axis.
-
-**Decision Tree**
-
-![image](https://user-images.githubusercontent.com/89337445/186931451-99a7f759-bdb9-4a08-9835-d171fa520b50.png)
 
 **Variable Importance**
 
@@ -94,21 +82,35 @@ The darker the colour, the more negatively correlated it is for x and y axis.
 
 ![image](https://user-images.githubusercontent.com/112098061/186762616-fb636c4a-5021-43c4-8cdf-77ccb1176fb1.png)
 
+**Historgrams**
+
+![image](https://user-images.githubusercontent.com/112098061/186915250-78e8d0fd-7473-450e-88f9-647138b05c96.png)
+
+The histograms describe the data by their frequency and distribution
+
+**Decision Tree**
+
+![image](https://user-images.githubusercontent.com/89337445/186931451-99a7f759-bdb9-4a08-9835-d171fa520b50.png)
+
+
 ## Ethical considerations
 
 * **Describe potential negative impacts of using your model**:
-- Math or software problems: the model depends a lot on the packages we used. The different versions might result in other potential intepretations
+- Math or software problems: 
+  1. as reflected in the varialbe importance barchart, the model relies heavily on the PAY_0 variable which may neglect other variables' importance affecting the predicted outcome
+  2. the model depends a lot on the packages we used. The different versions might result in other potential intepretations
+  3. while explicit bias was reduced by not taking demographic data out from the model, there might still be bias hidden in the data
 - Real-world risks: who, what, when or how: 
-1. The demographic issues in the model: There some variables regarding demographic information such as race, gender, age or married status that should be taken into consideration when putting into the model
-2. Local discrimination - the model treats a small number of similar people differently
-3. Data privacy issues
+  1. The demographic issues in the model: there are some variables regarding demographic information such as race, gender, age or married status that should be taken into consideration when putting into the model
+  2. Local discrimination - the model treats a small number of similar people differently
+  3. Data privacy issues
 
 * **Describe potential uncertainties relating to the impacts of using your model**:
 - Math or software problems: there are many software tools availalbe but most of them do not consider legality 
 - Real-world risks: who, what, when or how?: 
 1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos
-2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possess the data
+2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possessing the data
 
 * **Describe any unexpected or results**: 
 1. AUC is lower than expected
-2. The model predicts prediction depends on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the training, for example covid or economic recession
+2. The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession
