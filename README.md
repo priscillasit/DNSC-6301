@@ -62,14 +62,14 @@ DELINQ_NEXT	           | target          | int               | whether a custome
 ## Quantitative analysis
 * **Metrics used to evaluate final model: Training AUC (for depth 6), Validation AUC (for depth 6), Test AUC and AIR**
 * **Final values of data:**
-  * Training AUC: 0.783722	
-  * Validation AUC: 0.749610
-  * Test AUC: 0.7438
+  * **Training AUC**: 0.783722	
+  * **Validation AUC**: 0.749610
+  * **Test AUC**: 0.7438
  
-  * asian-to-white AIR: 1.00
-  * black-to-white AIR: 0.85
-  * hispanic-to-white AIR: 0.83
-  * female-to-male AIR: 1.02
+  * **Asian-to-White AIR**: 1.00
+  * **Black-to-White AIR**: 0.85
+  * **Hispanic-to-White AIR**: 0.83
+  * **Female-to-Male AIR**: 1.02
  
  **Historgrams**
 
