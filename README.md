@@ -97,8 +97,8 @@ The histograms describe the data by their frequency and distribution
 
 * **Describe potential negative impacts of using your model**:
 - Math or software problems: 
-  1. as reflected in the varialbe importance barchart, the model relies heavily on the PAY_0 variable which may neglect other variables' importance affecting the predicted outcome
-  2. the model depends a lot on the packages we used. The different versions might result in other potential intepretations
+  - As reflected in the varialbe importance barchart, the model relies heavily on the *PAY_0* variable which may neglect other variables' importance and affect the predicted outcome.
+  2. Our model depends a lot on the packages we used. The different versions of the package may result in other potential intepretations.
   3. while explicit bias was reduced by not taking demographic data out from the model, there might still be bias hidden in the data
 - Real-world risks: who, what, when or how: 
   1. The demographic issues in the model: there are some variables regarding demographic information such as race, gender, age or married status that should be taken into consideration when putting into the model
