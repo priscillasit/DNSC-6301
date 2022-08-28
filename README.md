@@ -99,20 +99,21 @@ The histograms describe the data by their frequency and distribution
 
 * **Describe potential negative impacts of using your model**:
 - Math or software problems:
-  1. Our model depends a lot on the packages we used. The different versions of the package may result in other potential intepretations.
-  2. While explicit bias was reduced by not taking demographic data out from the model, there might still be bias hidden in the data.
-- Real-world risks: who, what, when or how: 
-  1. The demographic issues in the model: there are some variables regarding demographic information such as race, gender, age or married status that should be taken into consideration when putting into the model
-  2. Local discrimination: the model treats a small number of similar people differently.
-  3. Data privacy issues
+  - Our model depends a lot on the packages we used. The different versions of the package may result in other potential intepretations.
+  - While explicit bias was reduced by not taking demographic data out from the model, there might still be bias hidden in the data.
+- Real-world risks:  
+  - Demographic Issue: In the model, there are variables regarding demographic information such as race, gender, age or married status that should be taken into consideration when putting into the model.
+  - Local discrimination: the model treats a small number of similar people differently.
+  - Data privacy: The data we used in the model may have data privacy issue. 
 
 * **Describe potential uncertainties relating to the impacts of using your model**:
-- Math or software problems: there are many software tools available but most of them do not consider legality 
+- Math or software problems: 
+  - There are plenty of softwares or tools available for us to use, but most of them are not considered legality.
 - Real-world risks: who, what, when or how?: 
-  1. Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos.
-  2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possessing the data
+  - Malicious machine learning attacks e.g. data poisoning, model inversion, training data breaches. These might induce beneficial outcomes from a predictive or pattern recognition model or induce negative outcome for others, which could cause social or commercial chaos.
+  - Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possessing the data
 
 * **Describe any unexpected or results**: 
-  1. As reflected in the varialbe importance barchart, the model relies heavily on the *PAY_0* variable which may neglect other variables' importance and affect the predicted outcome.
-  2. AUC is lower than expected
-  3. The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession.
+  - As reflected in the varialbe importance barchart, the model relies heavily on the *PAY_0* variable which may neglect other variables' importance and affect the predicted outcome.
+  - AUC is lower than expected. We expected that AUC can be a little bit higher. 
+  - The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession.
