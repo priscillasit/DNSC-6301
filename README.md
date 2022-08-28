@@ -113,6 +113,6 @@ The histograms describe the data by their frequency and distribution
   2. Legal aspect of collecting data: consent from the owners or privacy policies of the organizations possessing the data
 
 * **Describe any unexpected or results**: 
-  1. AUC is lower than expected
-  2. As reflected in the varialbe importance barchart, the model relies heavily on the *PAY_0* variable which may neglect other variables' importance and affect the predicted outcome.
+  1. As reflected in the varialbe importance barchart, the model relies heavily on the *PAY_0* variable which may neglect other variables' importance and affect the predicted outcome.
+  2. AUC is lower than expected
   3. The model predicts prediction depending on the data we feed to the model. It is unable to predict unexpected conditions if those data was not included in the dataset, for example covid or economic recession.
